@@ -5,7 +5,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  background: #eee;
+  background-color: #eee;
   color: #242424;
 
   font-synthesis: none;
@@ -13,6 +13,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+input {
+  background-color: #eee;
+  color: #333
 }
 
 a {
@@ -66,7 +71,7 @@ button {
 }
 .bar {
   background: #535bf2;
-  width: 100px;
+  width: 0px;
   height: 100%;
 }
 label {
@@ -84,12 +89,14 @@ select {
   padding-left: 10px;
   font-family: Verdana;
   font-size: 14px;
+  background-color: #eee;
   color: #333;
 }
 button {
   height: 40px;
   width: 100%;
   font-size: 16px;
+  background-color: #eee;
   color: #333;
 }
 
